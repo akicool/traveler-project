@@ -12,7 +12,7 @@ button {
 }
 
 .container {
-    min-width: 1220px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0 45px;
 }
@@ -72,6 +72,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 37px;
+    flex-wrap: wrap;
 
     margin-bottom: 254px;
 
