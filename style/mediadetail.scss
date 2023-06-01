@@ -1,3 +1,15 @@
+@media (max-width: 880px) {
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .field {
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width: 610px) {
     .container {
         max-width: 610px;
@@ -24,6 +36,12 @@
     }
 }
 
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
 @media (max-width: 445px) {
     .container {
         max-width: 445px;
@@ -32,6 +50,10 @@
     .header__logo {
         font-size: 12px;
     }
+
+    .field {
+        padding: 0 15px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -39,6 +61,24 @@
         padding: 0 20px;
         max-width: 400px
     }
+}
+
+@media (max-width: 360px) {
+    .dates {
+        margin-top: 57px;
+
+    }
+
+    .dates__input {
+        padding: 7px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        margin-top: 60px;
+    }
+    
 }
 
 @media (max-width: 350px) {

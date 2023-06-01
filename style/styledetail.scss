@@ -1,6 +1,7 @@
 $pp: 'Poppins';
 
 
+
 body {
     font-family: $pp;
     background-color: #fcfcfc;
@@ -10,6 +11,7 @@ button {
     border: none;
     background: none;
     padding: 0;
+    
 }
 
 .container {
@@ -63,7 +65,9 @@ button {
     }
     &__dote-btn {
         display: flex;
-    }
+        
+        
+    } 
     &__user-btn {
         display: flex;
 
@@ -89,7 +93,8 @@ button {
 .about {
     display: flex;
     justify-content: space-between;
-    
+    //flex-wrap: wrap;
+
     &__description {
     }
     
@@ -155,4 +160,134 @@ button {
 
 // field
 .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    max-width: 387px;
+    height: 525px;
+    width: 100%;
+    margin-top: 72px;
+    margin-left: 53px;
+
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
+    box-shadow: 0px 0px 35px rgba(155, 155, 155, 0.15);
+    border-radius: 15px;
+
+    &__header-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 337px;
+        width: 100%;
+        padding: 30px 25px 0 25px;
+    }
+    
+    &__big-font {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    &__rating {
+        display: flex;
+        justify-content: space-between;
+        max-width: 156px;
+        width: 100%;
+    }
+
+    &__estimation {
+        display: flex;
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+
+        img {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+    }
+
+    &__reviews {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+
+        text-decoration: underline;
+    }
+
+    &__description {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+.dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 337px;
+    width: 100%;
+
+    margin-top: 33px;
+
+    
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //flex-direction: column;
+        width: 100%;
+    }
+    
+    &__input {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid #d1d7e8;
+    }
+}    
+
+.btn {
+    max-width: 337px;
+    width: 100%;
+    padding: 19px 0px 19px 0px;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FF385C;
+    border-radius: 8px;        
+}
+
+.info-price {
+    max-width: 337px;
+    width: 100%;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 42px;
+    }
+    &__line {
+        max-width: 337px;
+        width: 100%;
+        
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px solid #E6E6E6;
+    }
+
+    &__total {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
