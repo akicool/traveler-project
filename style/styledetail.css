@@ -1,7 +1,3 @@
-a {
-  text-decoration: none;
-}
-
 body {
   font-family: "Poppins";
   background-color: #fcfcfc;
@@ -63,54 +59,62 @@ button {
   display: flex;
 }
 
-.hotels {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 37px;
-  flex-wrap: wrap;
-  margin-bottom: 254px;
+.hotel-detail__images {
+  margin-top: 55px;
 }
-.hotels__item img {
-  width: 260px;
-  height: 260px;
-}
-.hotels__card-info {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin-top: 15px;
-}
-.hotels__text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  color: #3E3E3E;
-}
-.hotels__sub-text {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
-  color: #B8B8B8;
-}
-.hotels__amount {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 31px;
-  color: #3E3E3E;
-}
-.hotels__estimation {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: flex;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 21px;
-}
-.hotels__estimation img {
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
+.hotel-detail__images img {
+  height: auto;
+  width: 100%;
+  max-width: 1181px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about__title {
+  margin: 0;
+  margin-top: 72px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+.about__line {
+  max-width: 727px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #E6E6E6;
+}
+.about__features {
+  max-width: 742px;
+}
+.about__merits {
+  display: flex;
+  align-items: flex-start;
+}
+.about__merits img {
+  display: flex;
+}
+.about__merits:not(:first-child) {
+  margin-top: 30px;
+}
+.about__text-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+}
+.about__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.about__subtext {
+  margin-top: 5px;
+  max-width: 703px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/*# sourceMappingURL=styledetail.css.map */
