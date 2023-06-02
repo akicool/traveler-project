@@ -83,7 +83,7 @@ button {
   max-width: 727px;
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   border: 1px solid #E6E6E6;
 }
 .about__features {
@@ -113,6 +113,19 @@ button {
   margin-top: 5px;
   max-width: 703px;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.about__deadline {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 727px;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 0px 2px rgba(43, 43, 43, 0.35);
+  border-radius: 10px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 21px;
 }
@@ -229,6 +242,62 @@ button {
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
+}
+
+.offers {
+  margin-top: 60px;
+  margin-bottom: 145px;
+}
+.offers__title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+.offers__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.offers__advantages {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 31px;
+  max-width: 810px;
+  width: 100%;
+}
+.offers__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.offers__icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.offers__icon img {
+  margin-right: 18px;
+}
+.offers__two-elements {
+  max-width: 470px;
+  width: 100%;
+}
+.offers__three-elements {
+  max-width: 810px;
+  width: 100%;
+  margin-top: 38px;
+}
+.offers__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  max-width: 250px;
+  width: 100%;
+  margin-left: 20px;
+  border: 1px solid #3E3E3E;
+  border-radius: 12px;
 }
 
 /*# sourceMappingURL=styledetail.css.map */

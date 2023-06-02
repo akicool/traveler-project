@@ -10,6 +10,12 @@
     }
 }
 
+@media (max-width: 855px) {
+    .offers__icon {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 610px) {
     .container {
         max-width: 610px;
@@ -23,6 +29,21 @@
 
     .header__logo {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 510px) {
+    .offers {
+        margin-bottom: 60px;
+    }
+
+    .offers__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .offers__btn {
+        margin-top: 30px;
     }
 }
 
