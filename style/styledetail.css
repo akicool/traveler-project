@@ -66,6 +66,7 @@ button {
   height: auto;
   width: 100%;
   max-width: 1181px;
+  border-radius: 20px;
 }
 
 .about {

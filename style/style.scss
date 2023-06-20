@@ -82,9 +82,13 @@ button {
     margin-bottom: 254px;
 
     &__item {
+        margin-top: 40px;
+        
+        border: 1px solid #c1c1c1;
+        border-radius: 13px;
 
         img {
-            width: 260px;
+            width: 256px;
             height: 260px;
         }
     }
@@ -95,6 +99,7 @@ button {
         flex-direction: column;
 
         margin-top: 15px;
+        padding: 10px;
     }
 
     &__text {
@@ -123,8 +128,8 @@ button {
 
     &__estimation {
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 10px;
+        top: 10px;
 
         display: flex;
 

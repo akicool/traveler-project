@@ -76,7 +76,7 @@ button {
 
 // hotel-detail
 .hotel-detail {
-
+    
     &__images {
         margin-top: 55px;
 
@@ -85,6 +85,7 @@ button {
             width: 100%;
 
             max-width: 1181px;
+            border-radius: 20px;
         }
     }
 }
